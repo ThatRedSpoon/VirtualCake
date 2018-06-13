@@ -2,7 +2,7 @@ import socket
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-client.connect(('172.18.0.3', 3000))
+client.connect(('10.0.21.60', 3000))
 
 client.send("giveinfo")
 
