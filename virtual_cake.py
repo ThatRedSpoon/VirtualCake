@@ -2,7 +2,7 @@ import socket
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-server_address = ('10.0.21.32', 3000)
+server_address = ('afternoon-scrubland-55526', 3000)
 
 print "Starting Server on %s:%s" % server_address
 
